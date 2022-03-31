@@ -1,0 +1,104 @@
+body {
+  background-color: #fdfcdc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 50px;
+}
+h2 {
+  color: #227c9d;
+  text-decoration: underline;
+  font-size: 40pt;
+  text-align: center;
+}
+span {
+  font-weight: bolder;
+}
+h1,
+h3 {
+  font-size: 25pt;
+  color: grey;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15pt;
+  text-transform: uppercase;
+}
+p {
+  color: #17c3b2;
+}
+ul {
+  color: #17c3b2;
+}
+nav {
+  font-size: 20pt;
+  text-align: center;
+  position: sticky;
+  top: 20px;
+}
+
+a {
+  color: #fe6d73;
+  text-decoration-line: underline;
+}
+
+#facts {
+  font-weight: bold;
+}
+
+#list {
+  border-style: solid;
+  border-radius: 5px;
+  height: fit-content;
+  width: 200px;
+  padding: 10px;
+  margin: 5px;
+  position: relative;
+  top: 30px;
+}
+
+#div1 {
+  color: #560bad;
+  position: relative;
+  top: 10px;
+}
+
+.caption {
+  position: relative;
+  left: 30px;
+}
+
+form {
+  padding: 15px;
+  background-color: white;
+  border-style: solid;
+  font-weight: 900px;
+  border-radius: 5px;
+  width: 500px;
+  padding: 25px;
+}
+
+input[type="button"] {
+  padding: 5px;
+  border-radius: 0.25em;
+}
+
+input[type="button"]:hover {
+  color: #fe6d73;
+  background-color: #fdfcdc;
+  padding: 5px;
+  border-radius: 0.25em;
+  box-shadow: 5px 3px 3px gray;
+}
+
+#snowboarding-description {
+  display: inline-block;
+  width: 45%;
+}
+
+#resort-table {
+  display: inline-block;
+  width: 45%;
+  padding-left: 30px;
+}
